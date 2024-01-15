@@ -1,8 +1,5 @@
 from threading import Thread
-from app.endpoints import app
-
-def run_flask():
-    app.run(port=5001)  # You can choose any port you like
+from app.endpoints import run_flask
 
 def main():
     # Create separate threads for Flask endpoints
